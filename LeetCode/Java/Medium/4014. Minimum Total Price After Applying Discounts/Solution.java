@@ -6,6 +6,7 @@ class Solution {
 
        int n=Math.min(x,y);
        Arrays.sort(prices);
+       
        if(x > y){
         int b=x-y;
             for(int i=prices.length-1;i>=prices.length-n;i--){
