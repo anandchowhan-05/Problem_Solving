@@ -3,8 +3,10 @@ class Solution {
         int sum=nums[0];
         HashSet<Integer> set=new HashSet<>();
         set.add(nums[0]);
-        for(int i=1;i<nums.length;i++){
+        for(int i=0;i<nums.length;i++){
             set.add(nums[i]);
+        }
+        for(int i=1;i<nums.length;i++){
             if(nums[i] == nums[i-1]+1){
                 sum +=nums[i];
             }else{
@@ -13,7 +15,7 @@ class Solution {
         }
         //while(!set.contains(sum)){
         while(set.contains(sum)){
-            sum=sum+1;
+            sum++;
         }
         return sum;
     }
