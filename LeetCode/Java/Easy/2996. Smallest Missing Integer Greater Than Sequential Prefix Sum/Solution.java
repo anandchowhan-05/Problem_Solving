@@ -7,7 +7,9 @@ class Solution {
             set.add(nums[i]);
             if(nums[i] == nums[i-1]+1){
                 sum +=nums[i];
-            }else
+            }else{
+                break;
+            }
         }
         //while(!set.contains(sum)){
         while(set.contains(sum)){
