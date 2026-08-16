@@ -1,6 +1,6 @@
 # 📝 3090. Maximum Length Substring With Two Occurrences (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/?envType=daily-question&envId=2026-08-15)
+🔗 [Problem Link](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
