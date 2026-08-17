@@ -11,7 +11,7 @@ class Solution {
         int[] b=new int[count];
         int j=0;
         for(int i=0;i<n;i++){
-            if(nums[i]>0){
+            if(nums[i]>=0){
                 b[j++]=nums[i];
             }
         }
