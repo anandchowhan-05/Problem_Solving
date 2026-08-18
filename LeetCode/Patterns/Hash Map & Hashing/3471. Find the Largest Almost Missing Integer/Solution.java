@@ -15,7 +15,7 @@ class Solution {
     //     return map.get(1);
     //   }
     //   return -1;  
-    if(n<=2 || nums[0]== nums[n-1]) return -1; 
+    if(n<=2) return -1; 
     int max=Math.max(nums[0],nums[n-1]);
     HashSet<Integer> set=new HashSet<>();
     for(int i=1;i<n-1;i++){
