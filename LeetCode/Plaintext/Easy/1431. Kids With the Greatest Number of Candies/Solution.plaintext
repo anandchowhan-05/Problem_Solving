@@ -1,0 +1,13 @@
+        ArrayList<Boolean> list=new ArrayList<>();
+        for(int i=0;i<candies.length;i++){
+            if(candies[i]+ extraCandies >= max){
+                list.add(true);
+        }
+            }
+                max=candies[i];
+            if(candies[i]>max){
+        for(int i=0;i<candies.length;i++){
+        int max=0;
+            }else{
+                list.add(false);
+            }
