@@ -1,8 +1,8 @@
 # 📝 605. Can Place Flowers (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/can-place-flowers/)
+🔗 [Problem Link](https://leetcode.com/problems/can-place-flowers/?envType=study-plan-v2&envId=leetcode-75)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Plaintext-blue)
 
 ### 💡 Tags
 Array, Greedy
