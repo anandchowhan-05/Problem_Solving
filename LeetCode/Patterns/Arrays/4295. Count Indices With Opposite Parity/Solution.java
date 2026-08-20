@@ -9,25 +9,25 @@ class Solution {
                 odd++;
             }
         }
-        // for(int i=0;i<n;i++){
-        //     if(nums[i]%2==0){
-        //         nums[i]=odd;
-        //         odd--;
-        //     }else{
-        //         nums[i]=even;
-        //         even--;
-        //     }
-        // }
-        int[] b=new int[nums.length];
         for(int i=0;i<nums.length;i++){
             if(nums[i]%2==0){
-                b[i]=odd;
+                nums[i]=odd;
                 even--;
             }else{
-                b[i]=even;
+                nums[i]=even;
                 odd--;
             }
         }
-        return b;
+        // int[] b=new int[nums.length];
+        // for(int i=0;i<nums.length;i++){
+        //     if(nums[i]%2==0){
+        //         b[i]=odd;
+        //         even--;
+        //     }else{
+        //         b[i]=even;
+        //         odd--;
+        //     }
+        // }
+        return nums;
     }
 }
