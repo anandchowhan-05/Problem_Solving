@@ -18,16 +18,6 @@ class Solution {
                 odd--;
             }
         }
-        // int[] b=new int[nums.length];
-        // for(int i=0;i<nums.length;i++){
-        //     if(nums[i]%2==0){
-        //         b[i]=odd;
-        //         even--;
-        //     }else{
-        //         b[i]=even;
-        //         odd--;
-        //     }
-        // }
         return nums;
     }
 }
