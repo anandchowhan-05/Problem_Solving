@@ -1,7 +1,7 @@
 class Solution {
     public long findKthSmallest(int[] coins, int k) {
         TreeSet<Long> set = new TreeSet<>();
-        Arr
+        Arrays.sort(coins);
         for(int i=1;i<=k;i++){
             for(int j=0;j<coins.length;j++){
                 set.add((long)coins[j]*i);
