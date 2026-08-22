@@ -1,5 +1,6 @@
 class Solution {
     public boolean checkDivisibility(int n) {
+        if
         int sum=0;
         int prod=1;
         int temp=n;
