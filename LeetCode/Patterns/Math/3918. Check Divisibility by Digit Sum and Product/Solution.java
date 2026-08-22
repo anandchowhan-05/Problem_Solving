@@ -11,6 +11,6 @@ class Solution {
             n=n/10;
         }
         int res=sum+prod;
-        return res%temp==0;
+        return temp%res==0;
     }
 }
