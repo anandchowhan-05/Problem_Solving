@@ -1,6 +1,6 @@
 # 📝 1927. Sum Game (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/sum-game)
+🔗 [Problem Link](https://leetcode.com/problems/sum-game/?envType=daily-question&envId=2026-08-23)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
