@@ -23,6 +23,10 @@ class Solution {
                 bob += ch - '0';
             }
         }
-        return 2 * Math.abs(alice - bob) != 9 * Math.abs(alicecount - bobcount);
+        if ((alicecount + bobcount) % 2 == 1) {
+            return true;
+        }
+        return alice - bob !=
+               9 * (bobcount - alicecount) / 2;
     }
 }
