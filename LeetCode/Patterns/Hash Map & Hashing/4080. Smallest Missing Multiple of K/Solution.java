@@ -1,12 +1,13 @@
 class Solution {
     public int missingMultiple(int[] nums, int k) {
         int n=nums.length;
-        Arrays.sort(nums);
+       int max=0;
         HashSet<Integer> set=new HashSet<>();
         for(int i=0;i<n;i++){
             set.add(nums[i]);
+            max=Math.max(max,nums[i]);
         }
-        for(int i=1;i<=nums[n-1]+k;i++){
+        for(int i=1;i<=max+k;i++){
             if(!set.contains(i) && i%k==0){
                 return i;
             }
