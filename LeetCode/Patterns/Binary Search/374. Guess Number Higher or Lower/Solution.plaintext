@@ -1,0 +1,12 @@
+            }else if(guess(mid) == 1){
+                low=mid+1;
+                return mid;
+            if(guess(mid)==0){
+            int mid=low+(high-low)/2;
+        while(low<=high){
+        int high=n;
+            }else{
+                high=mid-1;
+            }
+        }
+        return -1;
