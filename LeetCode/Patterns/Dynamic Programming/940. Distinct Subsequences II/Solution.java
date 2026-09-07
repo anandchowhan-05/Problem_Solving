@@ -9,8 +9,8 @@ class Solution {
             int index= ch - 'a';
             long prev=ans;
             ans = (2*ans-last[index]+mod)%mod;
-            last[index]=prev%mod;
+            last[index]=prev;
         }
-        return (int)ans-1;
+        return (int)((ans - 1 + mod) % mod);
     }
 }
