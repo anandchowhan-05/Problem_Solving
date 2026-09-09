@@ -3,7 +3,7 @@ class Solution {
         if(n<1000l) return 0;
         long ans=0;
         if(n >=1000000l){
-            ans +=999900l;
+            ans +=999000l;
         }else{
             return n-999l;
         }
