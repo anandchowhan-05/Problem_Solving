@@ -8,19 +8,19 @@ class Solution {
             return n-999l;
         }
         if(n>=1000000000l){
-            ans += (999999999l-1000000l)*2;
+            ans += (999999999l-1000000l+1)*2;
         }else{
             long value=(n-999999l)*2;
             return ans+value;
         }
         if(n>=1000000000000l){
-            ans += (999999999999l-1000000000l)*3;
+            ans += (999999999999l-1000000000l+1)*3;
         }else{
             long value=(n-999999999l)*3;
             return ans+value;
         }
         if(n>=1000000000000000l){
-            ans += (999999999999999l-1000000000000l)*4;
+            ans += (999999999999999l-1000000000000l+1)*4;
         }else{
             long value=(n-999999999999l)*4;
             return ans+value;
