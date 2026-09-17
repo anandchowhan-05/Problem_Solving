@@ -1,7 +1,7 @@
 class Solution {
     public int minMoves(int target, int maxDoubles) {
         int count=0;
-        if
+        if(maxDoubles == 0) return target-1;
         while(target != 0){
             if(target%2==0 && maxDoubles > 0){
                 target=target/2;
