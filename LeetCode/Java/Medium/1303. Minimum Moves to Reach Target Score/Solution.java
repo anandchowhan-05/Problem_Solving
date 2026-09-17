@@ -12,6 +12,6 @@ class Solution {
             }
             count++;
         }
-        return count;
+        return count + target - 1;
     }
 }
