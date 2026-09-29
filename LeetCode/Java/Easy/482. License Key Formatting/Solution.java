@@ -3,19 +3,26 @@ class Solution {
     public String licenseKeyFormatting(String s, int k) {
 
         StringBuilder sb = new StringBuilder();
+
+        // Remove '-' and convert to uppercase
         for (char ch : s.toCharArray()) {
             if (ch != '-') {
                 sb.append(Character.toUpperCase(ch));
             }
         }
 
-        StringBuilder ans = new StringBuilder();
+        // If there are no characters
+        if (sb.length() == 0) {
+            return "";
+        }
 
         int first = sb.length() % k;
 
         if (first == 0) {
             first = k;
         }
+
+        StringBuilder ans = new StringBuilder();
 
         ans.append(sb.substring(0, first));
 
