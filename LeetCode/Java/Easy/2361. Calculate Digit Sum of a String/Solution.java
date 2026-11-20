@@ -1,25 +1,23 @@
 class Solution {
     public String digitSum(String s, int k) {
-      while(s.length()>k){
-        String b="";
-        for(int i=0;i<s.length();i=i+k){
-            int n=s.length();
-            String str="";
-            if(n-i-1 < k){
-               str=s.substring(i,n); 
-            }else{
-               str=s.substring(i,i+k);
+        while(s.length() > k) {
+            String b = "";
+
+            for(int i = 0; i < s.length(); i = i + k) {
+                String str = s.substring(i, Math.min(i + k, s.length()));
+
+                int d = 0;
+
+                for(int j = 0; j < str.length(); j++) {
+                    d = d + (str.charAt(j) - '0');
+                }
+
+                b = b + d;
             }
-            int n1=Integer.parseInt(str);
-            int d=0;
-            while(n1!=0){
-                d=d+n1%10;
-                n1=n1/10;
-            }
-            b=b+d;
+
+            s = b;
         }
-        s=b;
-      }
-      return s;  
+
+        return s;
     }
 }
