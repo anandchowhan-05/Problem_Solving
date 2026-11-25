@@ -1,6 +1,6 @@
 # 📝 319. Bulb Switcher (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/bulb-switcher/solutions/)
+🔗 [Problem Link](https://leetcode.com/problems/bulb-switcher/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -21,7 +21,7 @@ On the third round, you toggle every third bulb (turning on if it's off or turni
 
 Return  *the number of bulbs that are on after  `n`  rounds* .
 
-OriginalJava **Example 1:**
+**Example 1:**
 
  ![image](https://assets.leetcode.com/uploads/2020/11/05/bulb.jpg) 
 
