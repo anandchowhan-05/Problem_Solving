@@ -8,5 +8,6 @@ class Solution {
             ans += x*10;
         }
         return ans;
+        
     }
 }
