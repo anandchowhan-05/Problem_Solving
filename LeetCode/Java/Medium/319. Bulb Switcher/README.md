@@ -8,7 +8,7 @@
 Math, Brainteaser
 
 ### 🚀 Performance
-- **Runtime:** 51 ms
+- **Runtime:** 1 ms
 - **Memory:** 41.2 MB
 
 ---
