@@ -5,8 +5,8 @@
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 42.1 MB
 
 ---
 
@@ -24,8 +24,6 @@ The  **score**  of these integers is defined as follows:
 - Otherwise, the score is  `s2 / s1`  using integer division.
 
 Return an integer representing the score of  `a`  and  `b` .
-
-A  **set bit**  refers to a bit in the binary representation of a number that has a value of 1.
 
 **Example 1:**
 
