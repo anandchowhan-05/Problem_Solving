@@ -10,7 +10,7 @@ class Solution {
         if(x%3 != 0) return false;
         int res = x/3;
         int i=0;
-        for(i=0;i<n;i++){
+        for(i=0;i<n-2;i++){
             s1 += arr[i];
             if(s1==res) break;
         }
