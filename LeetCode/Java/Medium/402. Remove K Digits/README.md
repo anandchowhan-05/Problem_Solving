@@ -8,8 +8,8 @@
 String, Stack, Greedy, Monotonic Stack
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 42 ms
+- **Memory:** 47.4 MB
 
 ---
 
@@ -17,7 +17,7 @@ String, Stack, Greedy, Monotonic Stack
 
 Given string num representing a non-negative integer  `num` , and an integer  `k` , return  *the smallest possible integer after removing*   `k`   *digits from*   `num` .
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: num = "1432219", k = 3

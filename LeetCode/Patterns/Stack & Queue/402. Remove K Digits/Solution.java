@@ -16,8 +16,14 @@ class Solution {
         }
         if(st.isEmpty()) return "0";
         String str = st.stream().map(s -> s.toString()).collect(Collectors.joining(""));
-        int
-        if(str.charAt(0)=='0') str=str.substring(1,str.length());
+        int l=0;
+        for(int i=0;i<str.length();i++){
+            char ch=str.charAt(i);
+            if(ch=='0') l++;
+            else break;
+        }
+        str=str.substring(l,str.length());
+        if(str.length()==0) return "0";
         return str;
     }
 }
