@@ -1,6 +1,6 @@
 # 📝 2211. Count Collisions on a Road (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/count-collisions-on-a-road/)
+🔗 [Problem Link](https://leetcode.com/problems/count-collisions-on-a-road)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
