@@ -115,7 +115,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [x] [Maximum Subarray](./Java/Medium/53. Maximum Subarray/)
 - [ ] Find Pivot Index
 - [ ] Product of Array Except Self
-- [x] [Partition Array Into Three Parts With Equal Sum](./Java/Easy/1062. Partition Array Into Three Parts With Equal Sum/)
+- [x] [Partition Array Into Three Parts With Equal Sum](./Java/Easy/1013. Partition Array Into Three Parts With Equal Sum/)
 
 ### 📂 MODULE  3.8: GREEDYLIKE SIMULATION Best
 - [ ] Best Time to Buy and Sell Stock
