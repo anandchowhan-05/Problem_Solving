@@ -3,7 +3,7 @@ class Solution {
      if(n<10) return false;
      boolean isValue=false;
      int x=10;
-     while(n>x){
+     while(n>=x){
         if(x%2==0){
             n=n-x;
             isValue=true;
