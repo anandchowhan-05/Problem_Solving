@@ -14,16 +14,14 @@ class Solution {
             st.pop();
             k--;
         }
-        if(st.isEmpty()) return "0";
-        String str = st.stream().map(s -> s.toString()).collect(Collectors.joining(""));
-        int l=0;
-        for(int i=0;i<str.length();i++){
-            char ch=str.charAt(i);
-            if(ch=='0') l++;
-            else break;
+        StringBuilder sb = new StringBuilder();
+
+        for (char ch : st) {
+            if (sb.length() == 0 && ch == '0') {
+                continue;
+            }
+            sb.append(ch);
         }
-        str=str.substring(l,str.length());
-        if(str.length()==0) return "0";
-        return str;
+        return sb.length() == 0 ? "0" : sb.toString();
     }
 }
