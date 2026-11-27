@@ -1,6 +1,6 @@
 # 📝 1014. Best Sightseeing Pair (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/best-sightseeing-pair/)
+🔗 [Problem Link](https://leetcode.com/problems/best-sightseeing-pair)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
