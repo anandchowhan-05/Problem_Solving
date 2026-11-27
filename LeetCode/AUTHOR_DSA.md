@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 10 / 238 (4.2%)
+- **Completed:** 11 / 238 (4.6%)
 
 ---
 
@@ -118,7 +118,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [x] [Partition Array Into Three Parts With Equal Sum](./Java/Easy/1062. Partition Array Into Three Parts With Equal Sum/)
 
 ### 📂 MODULE  3.8: GREEDYLIKE SIMULATION Best
-- [ ] Best Time to Buy and Sell Stock
+- [x] [Best Time to Buy and Sell Stock](./Java/Easy/121. Best Time to Buy and Sell Stock/)
 - [ ] Best Time to Buy and Sell Stock II
 - [ ] Rotate Array
 - [ ] Lemonade Change
