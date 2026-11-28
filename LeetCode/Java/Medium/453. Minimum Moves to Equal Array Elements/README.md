@@ -8,16 +8,18 @@
 Array, Math
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 2 ms
+- **Memory:** 46.6 MB
 
 ---
 
 ### 📜 Problem Description
 
-Given an integer array  `nums`  of size  `n` , return  *the minimum number of moves required to make all array elements equal* .
+You are given an integer array  `nums`  of size  `n` .
 
-In one move, you can increment  `n - 1`  elements of the array by  `1` .
+Return the  **minimum**  number of moves required to make all array elements  **equal** .
+
+In one move, you must increment  `n - 1`  elements of the array by 1.
 
 **Example 1:**
 
